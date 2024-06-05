@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgb(176, 176, 228);
+}
+.container{
+    background-color: rgb(107, 102, 174);
+    justify-content: center;
+    width: 50%;
+    margin-left: 26%;
+    margin-top: 5%;
+    text-align: center;
+    padding: 20px;
+}
+input[type="text"], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 30px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    width: 15%;
+    background-color: rgb(216, 248, 100);
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid #333;
+    border-radius: 5px;
+    border-color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color: goldenrod;
+}
+.header{
+    width: 100%;
+    padding: 12px 20px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list-heading{
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    width: 60%;
+}
+.list-data{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(169, 160, 223);
+    text-align: left;
+    padding-left: 30px;
+    width: 53%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-radius: 10px;
+
+}
+.btn-position button{
+    position: relative;
+    margin-left: 5px;
+    left: 25%;
+    top: -54px;
+}
